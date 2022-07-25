@@ -13,6 +13,7 @@ class SpringbootShiroApplicationTests {
     @Test
     void contextLoads() {
         System.out.println(userService.queryUserByName("root"));
+System.out.println(userService.queryUserByName("root"));
     }
 
 
